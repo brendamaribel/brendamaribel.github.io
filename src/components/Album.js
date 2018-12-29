@@ -107,10 +107,6 @@ class Album extends Component {
        this.audioElement.addEventListener('durationchange', this.eventListeners.durationchange);
      }
 
-     componentWillUnmount() {
-       this.audioElement.src = null;
-       this.audioElement = null;
-     }
 
      componentWillUnmount() {
       this.audioElement.src = null;
@@ -121,8 +117,29 @@ class Album extends Component {
     handleTimeChange(e) {
      const newTime = this.audioElement.duration * e.target.value;
      this.audioElement.currentTime = newTime;
+
      this.setState({ currentTime: newTime });
    }
+
+   handleVolume(e) {
+              const newVolume = e.target.value;
+              this.audioElement.volume = newVolume;
+              this.setState({ volume: newVolume});
+            }
+
+
+   formatTime(timeSecs) {
+              let minutes = Math.floor(timeSecs/60)
+              let seconds = Math.floor(timeSecs%60)
+
+              if (isNaN(seconds) === true) {
+                  return "-:--"
+              } else if (seconds <10) {
+                  return `${minutes}:0${seconds}`
+              } else {
+                return `${minutes}:${seconds}`
+              }
+        }
 
 
    render() {
@@ -151,7 +168,7 @@ class Album extends Component {
 
                     <td>{this.handleHover(song,index)}</td>
                     <td>{ song.title }:{" "}</td>
-                    <td>{ song.duration }</td>
+                    <td>{ this.formatTime(song.duration) }</td>
                   </tr>
                   )
             }
@@ -166,6 +183,8 @@ class Album extends Component {
              currentTime={this.audioElement.currentTime}
              duration={this.audioElement.duration}
              handleTimeChange={(e) => this.handleTimeChange(e)}
+             handleVolume={(e) => this.handleVolume(e)}
+             formatTime={(timeSecs) => this.formatTime(timeSecs)}
            />
        </section>
      );
