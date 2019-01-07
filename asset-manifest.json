@@ -1,14 +1,14 @@
 {
-  "main.css": "/bloc-jams-react/static/css/main.891d5fbf.chunk.css",
-  "main.js": "/bloc-jams-react/static/js/main.3a9807d7.chunk.js",
-  "main.js.map": "/bloc-jams-react/static/js/main.3a9807d7.chunk.js.map",
-  "static/js/1.f08169d2.chunk.js": "/bloc-jams-react/static/js/1.f08169d2.chunk.js",
-  "static/js/1.f08169d2.chunk.js.map": "/bloc-jams-react/static/js/1.f08169d2.chunk.js.map",
-  "runtime~main.js": "/bloc-jams-react/static/js/runtime~main.8532c21b.js",
-  "runtime~main.js.map": "/bloc-jams-react/static/js/runtime~main.8532c21b.js.map",
-  "static/media/App.css": "/bloc-jams-react/static/media/bloc jams background photo.a9ffd616.jpg",
-  "static/css/main.891d5fbf.chunk.css.map": "/bloc-jams-react/static/css/main.891d5fbf.chunk.css.map",
-  "index.html": "/bloc-jams-react/index.html",
-  "precache-manifest.4eeadd2ab14c169e2c2c175e73ff0a35.js": "/bloc-jams-react/precache-manifest.4eeadd2ab14c169e2c2c175e73ff0a35.js",
-  "service-worker.js": "/bloc-jams-react/service-worker.js"
+  "main.css": "/static/css/main.4c8408f1.chunk.css",
+  "main.js": "/static/js/main.130704b0.chunk.js",
+  "main.js.map": "/static/js/main.130704b0.chunk.js.map",
+  "static/js/1.f08169d2.chunk.js": "/static/js/1.f08169d2.chunk.js",
+  "static/js/1.f08169d2.chunk.js.map": "/static/js/1.f08169d2.chunk.js.map",
+  "runtime~main.js": "/static/js/runtime~main.229c360f.js",
+  "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
+  "static/media/App.css": "/static/media/bloc jams background photo.a9ffd616.jpg",
+  "static/css/main.4c8408f1.chunk.css.map": "/static/css/main.4c8408f1.chunk.css.map",
+  "index.html": "/index.html",
+  "precache-manifest.4eff548487aa81b25dc840986ad429ab.js": "/precache-manifest.4eff548487aa81b25dc840986ad429ab.js",
+  "service-worker.js": "/service-worker.js"
 }
