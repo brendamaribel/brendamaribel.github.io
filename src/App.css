@@ -1,26 +1,9 @@
 .App {
   text-align: center;
+  height: 1080px;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
 
 @keyframes App-logo-spin {
   from {
@@ -29,4 +12,147 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+nav {
+ height: 10%;
+ margin: 0;
+ padding: 0;
+ overflow: hidden;
+ background-color: rgba(255, 99, 71, 0.5);
+ border: solid .5px rgba(255, 99, 71, 0.5);
+ border-collapse: collapse;
+ text-align: left;
+
+}
+
+.home-link {
+  font-size: 24px;
+  display: block;
+  color: white;
+  text-decoration: none;
+  float: left;
+  padding: 15px;
+  font-family: 'Pacifico', cursive;
+}
+
+.library-link{
+  font-size: 24px;
+  display: block;
+  color: white;
+  text-decoration: none;
+  float: left;
+  padding: 15px;
+  font-family: 'Pacifico', cursive;
+}
+
+.home-link:hover{
+  color: lightcoral;
+}
+
+.library-link:hover{
+  color: lightcoral;
+}
+
+
+
+.background{
+  background-image: url("bloc jams background photo.jpg");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  border-top: solid .5px rgba(255, 99, 71, 0.5);
+  border-collapse: collapse;
+  height: 80%;
+  overflow-y: scroll;
+
+}
+
+
+
+.point1{
+  height: 200px;
+  color: lightcoral;
+
+}
+
+.point2{
+  height: 200px;
+  color: lightcoral;
+}
+
+.point3{
+  height: 200px;
+  color: lightcoral;
+}
+
+footer {
+ height: 5%;
+ margin: 0;
+ padding: 0;
+ overflow: hidden;
+ background-color: rgba(255, 99, 71, 0.5);
+ border: solid .5px rgba(255, 99, 71, 0.5);
+ border-collapse: collapse;
+}
+
+.music-table{
+  position: absolute;
+  right: 0px;
+  width: 300px;
+  padding: 5px;
+}
+
+
+
+.remove-links{
+  text-decoration: none;
+  color: rgba(255, 99, 71);;
+  font-weight: bold;
+}
+
+.remove-links:hover{
+  color: ;
+
+}
+
+
+
+#footer-text{
+  color: white;
+
+}
+
+#release-info{
+  font-weight: bold;
+}
+
+#app-name{
+ font-family: 'Pacifico', cursive;
+ font-size: 64px;
+ color: lightcoral;
+}
+
+.ion-skip-backward{
+  color: lightcoral;
+}
+
+.ion-pause{
+  color: lightcoral;
+}
+
+.ion-play{
+  color: lightcoral;
+}
+
+.ion-skip-forward{
+  color: lightcoral;
+}
+
+.ion-volume-low{
+  color: lightcoral;
+}
+
+.ion-volume-high{
+  color: lightcoral;
 }
