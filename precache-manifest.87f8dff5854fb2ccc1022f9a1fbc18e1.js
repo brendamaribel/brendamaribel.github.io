@@ -8,19 +8,19 @@ self.__precacheManifest = [
     "url": "/bloc-jams-react/static/js/runtime~main.8532c21b.js"
   },
   {
-    "revision": "5566fd3d5b4d3a114188",
-    "url": "/bloc-jams-react/static/js/main.5566fd3d.chunk.js"
+    "revision": "b6376af2bd4eebf98692",
+    "url": "/bloc-jams-react/static/js/main.b6376af2.chunk.js"
   },
   {
     "revision": "f08169d20ff18b7b009a",
     "url": "/bloc-jams-react/static/js/1.f08169d2.chunk.js"
   },
   {
-    "revision": "5566fd3d5b4d3a114188",
+    "revision": "b6376af2bd4eebf98692",
     "url": "/bloc-jams-react/static/css/main.0b2ac1e5.chunk.css"
   },
   {
-    "revision": "0a378881761ae801905430ea1ca77044",
+    "revision": "60bf725712f8d9b0e689c622ca5ea1eb",
     "url": "/bloc-jams-react/index.html"
   }
 ];
